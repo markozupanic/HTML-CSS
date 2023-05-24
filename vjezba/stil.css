@@ -1,0 +1,168 @@
+body, html{
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background: #ffffff;
+    color: #000000;
+    
+  }
+  
+  /* Header */
+  
+  header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10%;
+    margin-bottom: 60px;
+    
+  }
+  
+  div.logo{
+    display: flex;
+    align-items: center;
+    
+  }
+  div.logo .title{
+    font-size: 2rem;
+    margin-left: 20px;
+    font-weight: bold;
+    
+  }
+  
+  img.logo{
+    height: 90px;
+  }
+  
+  menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    height: 100px;
+    
+  }
+  menu li{
+    margin: 0 10px
+    
+
+  }
+  
+  menu li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+
+  }
+  
+  menu li a:hover{
+    color: #454141;
+  }
+  
+
+  h1.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #000000;
+  }
+  section.departments{
+    display: flex;
+    justify-content: space-around;
+    background: #b4b4af;
+  }
+
+
+  .card{
+    max-width: 1800px;
+    background: #cdc489;
+    border: 3px solid rgb(51, 51, 51);
+    border-radius: 5px;
+    margin: 0 30px;
+  }
+
+  .card-header{
+    color: #eaa53e;
+    padding: 20px 18px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card-body{
+    color: #294813;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  h1{
+    margin: 50px 0 30px;
+    color: #eaa53e;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+
+  section.technology{
+    background: #b4b3b3;
+    padding: 15px;
+    margin-bottom: 70px;
+  }
+
+  ul{
+    list-style-type: none;
+    width: 20%;
+    margin: 0 auto;
+    
+  }
+  ul li{
+    background: #cdc489;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #294813;
+    
+  }
+
+  ul li:nth-child(2n){
+    background: #eaa53e;
+  }
+ 
+
+
+  section.programs{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  table{
+    width: 100%;
+    border-spacing: 0;
+  }
+  
+  table thead th{
+    border-bottom: 2px solid #eaa53e;
+    background: rgba(204, 204, 204, 0.3);
+    padding: 6px;
+  }
+  
+  td{
+    padding: 7px 0;
+  }
+  
+  table tbody tr:nth-child(2n) td{
+    background: rgba(170, 170, 170, 0.2);
+  }
+  
+  table td:nth-child(3){
+    text-align: right;
+  }
+  table td:nth-child(1), table td:nth-child(4){
+    text-align: center;
+  }

@@ -1,0 +1,247 @@
+body, html{
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background: #555555;
+    color: #fff;
+  }
+  
+  /* Header */
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 60px;
+  }
+  
+  div.logo{
+    display: flex;
+    align-items: center;
+  }
+  div.logo .title{
+    font-size: 2rem;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  img.logo{
+    height: 90px;
+  }
+  
+  menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  menu li{
+    margin: 0 10px
+  }
+  
+  menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  menu li a:hover{
+    color: #83abd5;
+  }
+  
+  /* END Header */
+  
+  /* Departments */
+  h1.title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  section.departments{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card{
+    max-width: 400px;
+    background: rgb(68, 121, 80);
+    border: 1px solid rgb(10, 54, 21);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 30px;
+  }
+  .card-header{
+    padding: 20px 18px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .card-body{
+    padding: 5px 10px;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .card-footer a{
+    display: block;
+    background: #4992de;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.12rem;
+  }
+  .card-footer a:hover{
+    background: #83abd5;
+  }
+  
+  /* END Departments */
+  
+  /* Technology */
+  
+  h1{
+    margin: 50px 0 30px;
+    color: #eaa53e;
+    margin-bottom: 5px;
+  }
+  section.technology{
+    background: #b4b3b3;
+    padding: 15px;
+    margin-bottom: 70px;
+  }
+  
+  ul{
+    list-style-type: none;
+    width: 40%;
+    margin: 0 auto;
+  }
+  ul li{
+    background: #eaa53e;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #222;
+  }
+  
+  ul li:nth-child(2n){
+    background: #83abd5;
+  }
+  
+  /* END Technology */
+  
+  /* Footer */
+  footer{
+    background: #222222;
+    display: flex;
+    padding: 12px 0 10px;
+    justify-content: center;
+  }
+  
+  .social-link{
+    margin: 0 10px;
+  }
+  .social-link img{
+    width: 35px;
+  }
+  .social-link:hover{
+    transform: scale(1.12);
+  }
+  
+  /* END footer */
+  
+  
+  /* Kontakt */
+  section.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  address{
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 1.6rem;
+  }
+  address span{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  address a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  label{
+    margin-bottom: 4px;
+  }
+  input, textarea{
+    width: 300px;
+    padding: 5px 6px;
+    font-size:1.1rem;
+    background: #eaa53e;
+    border: 5px solid #705328;
+    border-radius: 7px;
+  }
+  
+  input:focus-visible, textarea:focus-visible{/*dodaje kad se klikne na to kad korisnik oce sta pisat*/
+    outline: #83abd5 solid 2px;
+  }
+  
+  button[type="submit"]{
+    background: #83abd5;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[type="submit"]:hover{
+    background: #4992de;
+  }
+  
+  /* END kontakt */
+  
+  /* Table */
+  section.programs{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  table{
+    width: 100%;
+    border-spacing: 0;
+  }
+  
+  table thead th{
+    border-bottom: 2px solid #eaa53e;
+    background: rgba(204, 204, 204, 0.3);
+    padding: 6px;
+  }
+  
+  td{
+    padding: 7px 0;
+  }
+  
+  table tbody tr:nth-child(2n) td{
+    background: rgba(170, 170, 170, 0.2);
+  }
+  
+  table td:nth-child(3){
+    text-align: right;
+  }
+  table td:nth-child(1), table td:nth-child(4){
+    text-align: center;
+  }
